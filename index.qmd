@@ -1,9 +1,8 @@
 ---
 title: Moving away from SAS
 subtitle: |
-  **[an opportunity to modernise\
-   the practices\
-   of statisticians]{.orange}**
+  **[An opportunity to modernise\
+   the practices of statisticians]{.orange}**
 logo: img/uRosConf2024.png
 author: |
   Romain Lesur
