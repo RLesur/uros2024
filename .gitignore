@@ -1,0 +1,8 @@
+/.quarto/
+/.luarc.json
+index*.html
+index_files
+/background*.svg
+/logo.svg
+/public
+/favicon-32x32.png

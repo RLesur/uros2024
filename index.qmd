@@ -1,0 +1,39 @@
+---
+title: Moving away from SAS
+subtitle: |
+  **[an opportunity to modernise\
+   the practices\
+   of statisticians]{.orange}**
+logo: img/uRosConf2024.png
+author: |
+  Romain Lesur
+date: 2024-11-29
+slide-number: true
+footer: |
+  **The Use of R in Official Statistics Conference**
+# uncomment for French presentations:
+#lang: fr
+# for blind readers:
+slide-tone: false
+# for @olevitt:
+chalkboard: # press the B key to toggle chalkboard
+  theme: whiteboard
+# uncomment to use the multiplex mode:
+#multiplex: true
+format:
+  # pick the light mode (onyxia-revealjs) or the dark mode (onyxia-dark-revealjs)
+  onyxia-revealjs:
+  #onyxia-dark-revealjs:
+    output-file: index.html
+# visual editor configuration:
+editor:
+  render-on-save: true
+---
+
+## Introduction
+
+## Take away messages
+
+- Statisticians are (citizen) developers and must be trained as developers
+- Middle management must also be trained
+- Statisticians must become IT best friends
