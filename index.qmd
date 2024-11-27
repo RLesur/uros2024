@@ -33,9 +33,11 @@ editor:
 
 The adoption of R at INSEE (France)
 
-. . .
+::: {.r-stack .r-stretch}
 
 ![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DiffusionOfInnovation.png), licensed under [CC BY-SA 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)](img/DiffusionOfInnovation.png)
+
+:::
 
 ## From innovators to early majority
 
@@ -61,6 +63,71 @@ The adoption of R at INSEE (France)
 - **2022-2026**:
   * trainings for late majority and laggards
   * rewriting of the remaining codes
+
+:::
+
+## The challenge we faced
+
+**Lack of alignment between IT and R users**
+
+. . .
+
+[Dean Marchiori](https://www.deanmarchiori.com/)'s post ["_5 tips for dealing with IT_"](https://www.deanmarchiori.com/posts/2024-11-18-dealing-with-it/):
+
+. . .
+
+- **IT teams are risk averse**, they want to manage risks
+- Dean's tips:
+
+  * **Have empathy**: understand them and what they're facing
+  * **Political alignment**: convince your manager to help you with IT
+  * **Find supporters in IT**
+  * **Find (safe) workaround**
+  * **Buy commercially licensed software**
+
+## The challenge we faced
+
+**Lack of alignment between IT and R users**
+
+[Dean Marchiori](https://www.deanmarchiori.com/)'s post ["_5 tips for dealing with IT_"](https://www.deanmarchiori.com/posts/2024-11-18-dealing-with-it/):
+
+- **IT teams are risk averse**, they want to manage risks
+- Dean's tips:
+
+  * **Have empathy**: understand them and what they're facing
+  * **Political alignment**: convince your manager to help you with IT
+  * **Find supporters in IT**
+  * **Find (safe) workaround**
+  * **~~Buy commercially licensed software~~ [not always necessary]{.orange}**
+
+## The challenge we faced
+
+**Lack of alignment between IT and R users**
+
+. . .
+
+How did we solve it?
+
+. . .
+
+**Political alignment**: creation of an innovation team in the IT Department
+
+- Empathy for statisticians
+- Most valuable supporters
+- Propose workarounds for statisticians: [sspcloud.fr](https://datalab.sspcloud.fr) 
+
+## The challenges we are facing
+
+A wall of confusion between statisticians:
+
+. . .
+
+**The nature of R**
+
+::: incremental
+
+- some statisticians (mostly managers) saw R a new statistical "tool"
+- younger statisticians saw R as a programming language and considered themselves as developers
 
 :::
 
