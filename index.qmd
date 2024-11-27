@@ -9,7 +9,7 @@ author: |
 date: 2024-11-29
 slide-number: true
 footer: |
-  **The Use of R in Official Statistics Conference**
+  **The Use of R in Official Statistics 2024 Conference**
 # uncomment for French presentations:
 #lang: fr
 # for blind readers:
@@ -29,7 +29,40 @@ editor:
   render-on-save: true
 ---
 
-## Introduction
+## A journey to R adoption in an NSI
+
+The adoption of R at INSEE (France)
+
+. . .
+
+![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DiffusionOfInnovation.png), licensed under [CC BY-SA 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)](img/DiffusionOfInnovation.png)
+
+## From innovators to early majority
+
+::: incremental
+
+- **~2000-2008**: innovators
+- **2008-2013**: first trainings given by innovators to early adopters
+- **2013**: the use of R officially recognized internally
+- **2013-2022**: a collective skills upgrade
+  * a lot of trainings, [documentation](https://www.utilitr.org/)...
+  * some successes: packages released on CRAN; all open source languages officially recognized in 2018
+  * some issues: managing R in IT environments for 1500 statisticians
+
+:::
+
+## From early majority to full adoption
+
+::: incremental
+
+- **2022**: decision to use only open source languages from 2026 onwards
+  * 50% of the statistical programs already been rewritten in R
+  * new IT environment for statisticians and data scientists based on [Onyxia](https://onyxia.sh)
+- **2022-2026**:
+  * trainings for late majority and laggards
+  * rewriting of the remaining codes
+
+:::
 
 ## Take away messages
 
