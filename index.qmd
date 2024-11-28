@@ -220,17 +220,14 @@ An official statistical office is a socio-technical system. We need:
 
 ## The challenges we are facing
 
-A wall of confusion between statisticians:
-
-. . .
-
-**The nature of R**
-
 ::: incremental
 
-- some statisticians (mostly managers) saw R a new statistical "tool". Focus on the product, not the process
-- other statisticians (mostly the younger ones) saw R as a programming language and considered themselves as developers
-
+- A wall of confusion between statisticians:
+  *  some statisticians (mostly managers) saw R a new statistical "tool". They focus on the product, not the process.
+  * other statisticians (mostly the younger ones) saw R as a programming language and considered themselves as developers. They care about the process
+- Statistical training lacks solid basis in computer science:
+  * Academics have become too specialized
+  * Few academics also have a production experience
 :::
 
 ## Take away messages
