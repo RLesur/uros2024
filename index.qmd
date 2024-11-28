@@ -24,6 +24,7 @@ format:
   onyxia-revealjs:
   #onyxia-dark-revealjs:
     output-file: index.html
+    css: logo.css
 # visual editor configuration:
 editor:
   render-on-save: true
@@ -220,8 +221,9 @@ An official statistical office is a socio-technical system. We need:
 - Adopts best practices for software development (version control, modular code, tests)
 - Manages the dependencies of her projects: packages and system dependencies (`renv`, `pak`, `rix`...)
 - Has the right (and know how) to build a docker image (linux 101)
-- Has the right to orchestrate workflows and deploy applications in production (DevOps)
-- If this is too much for statisticians, we may need to integrate engineers into the business/methods units
+- Has the right to orchestrate workflows and deploy applications into production (DevOps)  
+
+> If this is too much for statisticians, we may need to integrate engineers into the business/methods units
 
 :::
 
