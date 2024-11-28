@@ -148,21 +148,74 @@ the practices of statisticians</span></strong></p><p></p>
 </section>
 <section id="a-journey-to-r-adoption-in-an-nsi" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>A journey to R adoption in an NSI</h2>
-<p>The adoption of R at INSEE (France)</p>
+<p>Diffusion of Innovations (Rogers, 1962)</p>
 
 <img data-src="img/DiffusionOfInnovation.png" class="r-stretch quarto-figure-center"><p class="caption">Source: <a href="https://commons.wikimedia.org/wiki/File:DiffusionOfInnovation.png">Wikimedia Commons</a>, licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0 Unported</a></p></section>
-<section id="from-innovators-to-early-majority" class="slide level2" data-background-image="background.svg" data-background-size="contain">
-<h2>From innovators to early majority</h2>
+<section id="a-journey-to-r-adoption-in-an-nsi-1" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>A journey to R adoption in an NSI</h2>
+<p>R adoption at INSEE (France): 1500 statisticians</p>
+
+<img data-src="img/DiffusionOfInnovationTimeline.png" class="r-stretch quarto-figure-center"><p class="caption">Source: <a href="https://commons.wikimedia.org/wiki/File:DiffusionOfInnovation.png">Wikimedia Commons</a> modified by author, licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0 Unported</a></p></section>
+<section id="innovators-motivators" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>Innovators’ motivators</h2>
 <div>
 <ul>
-<li class="fragment"><strong>~2000-2008</strong>: innovators</li>
-<li class="fragment"><strong>2008-2013</strong>: first trainings given by innovators to early adopters</li>
-<li class="fragment"><strong>2013</strong>: the use of R officially recognized internally</li>
-<li class="fragment"><strong>2013-2022</strong>: a collective skills upgrade
+<li class="fragment"><strong>~2000-2012</strong> Innovators’ motivators:
 <ul>
-<li class="fragment">a lot of trainings, <a href="https://www.utilitr.org/">documentation</a>…</li>
-<li class="fragment">some successes: packages released on CRAN; all open source languages officially recognized in 2018</li>
-<li class="fragment">some issues: managing R in IT environments for 1500 statisticians</li>
+<li class="fragment">graphical capabilities (<code>lattice</code>)</li>
+<li class="fragment">literate programming (<code>Sweave()</code>)</li>
+<li class="fragment">spatial data analysis (<code>sp</code>)</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="from-innovators-to-early-adopters" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>From Innovators to Early Adopters</h2>
+<div>
+<ul>
+<li class="fragment"><strong>2012</strong>:
+<ul>
+<li class="fragment">first R user group in Paris (<a href="https://fltaur.wordpress.com/">FL\tauR</a>)</li>
+<li class="fragment">the use of R officially recognized internally</li>
+<li class="fragment">first RStudio server</li>
+</ul></li>
+<li class="fragment"><strong>2012-2018</strong> Early adopters’ motivators
+<ul>
+<li class="fragment">RStudio IDE</li>
+<li class="fragment">graphical capabilities (<code>ggplot2</code>)</li>
+<li class="fragment">literate programming (<code>knitr</code>, <code>rmarkdown</code>)</li>
+<li class="fragment">dataviz web applications (<code>shiny</code>)</li>
+<li class="fragment">data wrangling (<code>tidyverse</code>, <code>data.table</code>)</li>
+<li class="fragment">first packages released on CRAN (<code>icarus</code>, <code>btb</code>, <code>gustave</code>)</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="getting-the-early-majority" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>Getting the Early Majority</h2>
+<div>
+<ul>
+<li class="fragment"><strong>2018</strong>: all open source languages officially recognized</li>
+<li class="fragment"><strong>2018-2022</strong>: a collective skills upgrade
+<ul>
+<li class="fragment">mass trainings in R</li>
+<li class="fragment">an open source, community-based documentation on R by and for INSEE statisticians: <a href="https://www.utilitr.org/">utilitR</a>…</li>
+<li class="fragment">adoption of an internal open source code publication policy</li>
+<li class="fragment">prototyping a new working environment for data science: an open source cloud based datalab (<a href="https://onyxia.sh">Onyxia</a>)</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="moving-away-from-proprietary-languages" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>Moving away from proprietary languages</h2>
+<div>
+<ul>
+<li class="fragment"><strong>2022</strong>:
+<ul>
+<li class="fragment">50% of the statistical scripts already been rewritten in R (voluntary initiatives)</li>
+<li class="fragment">decision to use only open source languages from 2026 onwards (motivated by the increase in licensing costs)</li>
+<li class="fragment">new internal environment for statisticians and data scientists based on <a href="https://onyxia.sh">Onyxia</a> (vendor lock-ins have moved from languages to platforms)</li>
+<li class="fragment"><code>parquet</code> files to store and disseminate data (preference for a cross language file format)</li>
 </ul></li>
 </ul>
 </div>
@@ -171,69 +224,75 @@ the practices of statisticians</span></strong></p><p></p>
 <h2>From early majority to full adoption</h2>
 <div>
 <ul>
-<li class="fragment"><strong>2022</strong>: decision to use only open source languages from 2026 onwards
-<ul>
-<li class="fragment">50% of the statistical programs already been rewritten in R</li>
-<li class="fragment">new IT environment for statisticians and data scientists based on <a href="https://onyxia.sh">Onyxia</a></li>
-</ul></li>
 <li class="fragment"><strong>2022-2026</strong>:
 <ul>
-<li class="fragment">trainings for late majority and laggards</li>
-<li class="fragment">rewriting of the remaining codes</li>
+<li class="fragment">mass trainings for late majority and laggards</li>
+<li class="fragment">new trainings on <a href="https://inseefrlab.github.io/formation-bonnes-pratiques-git-R/">Best Practices with R</a>, <a href="https://ensae-reproductibilite.github.io/website/">Bringing Data Science Projects into Production</a></li>
+<li class="fragment">an active community helping each other</li>
+<li class="fragment">rewriting of the remaining codes (thanks to ChatGPT for helping us understand SAS programs)</li>
 </ul></li>
 </ul>
 </div>
 </section>
-<section id="the-challenge-we-faced" class="slide level2" data-background-image="background.svg" data-background-size="contain">
-<h2>The challenge we faced</h2>
-<p><strong>Lack of alignment between IT and R users</strong></p>
+<section id="the-main-challenge-we-faced" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>The main challenge we faced</h2>
 <div class="fragment">
-<p><a href="https://www.deanmarchiori.com/">Dean Marchiori</a>’s post <a href="https://www.deanmarchiori.com/posts/2024-11-18-dealing-with-it/">“<em>5 tips for dealing with IT</em>”</a>:</p>
-</div>
-<div class="fragment">
+<h3 data-background-image="background.svg" data-background-size="contain" id="lack-of-alignment-between-it-and-statisticians">Lack of alignment between IT and statisticians</h3>
+<div>
 <ul>
-<li><p><strong>IT teams are risk averse</strong>, they want to manage risks</p></li>
-<li><p>Dean’s tips:</p>
+<li class="fragment">IT teams are risk averse: they are paid to provide <strong>stable</strong> IT environments</li>
+<li class="fragment">providing a working environment for R and python users is challenging: open source languages are <strong>unstable</strong> by nature</li>
+<li class="fragment">users need flexibility/IT need stability<br>
+<strong>Can we find a way out?</strong></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="tips-for-dealing-with-it" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>Tips for dealing with IT</h2>
+<p>Dean Marchiori’s post: <a href="https://www.deanmarchiori.com/posts/2024-11-18-dealing-with-it/">“<em>5 tips for dealing with IT</em>”</a>:</p>
+<div>
+<ul>
+<li class="fragment"><strong>Have empathy</strong>: understand them and what they’re facing</li>
+<li class="fragment"><strong>Political alignment</strong>: convince your manager to help you with IT</li>
+<li class="fragment"><strong>Find supporters in IT</strong></li>
+<li class="fragment"><strong>Find (safe) workaround</strong>: there is always a grey area between what is allowed and what is not</li>
+<li class="fragment"><strong>Buy commercially licensed software</strong></li>
+</ul>
+</div>
+</section>
+<section id="tips-for-dealing-with-it-1" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>Tips for dealing with IT</h2>
+<p>Dean Marchiori’s post: <a href="https://www.deanmarchiori.com/posts/2024-11-18-dealing-with-it/">“<em>5 tips for dealing with IT</em>”</a>:</p>
 <ul>
 <li><strong>Have empathy</strong>: understand them and what they’re facing</li>
 <li><strong>Political alignment</strong>: convince your manager to help you with IT</li>
 <li><strong>Find supporters in IT</strong></li>
-<li><strong>Find (safe) workaround</strong></li>
-<li><strong>Buy commercially licensed software</strong></li>
-</ul></li>
+<li><strong>Find (safe) workaround</strong>: there is always a grey area between what is allowed and what is not</li>
+<li><strong><del>Buy commercially licensed software</del></strong> <strong><span class="orange">not always necessary</span></strong></li>
+</ul>
+</section>
+<section id="how-did-we-align-it-and-statisticians" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>How did we align IT and statisticians?</h2>
+<div>
+<ul>
+<li class="fragment">Political alignment: creation of an innovation team in the IT Department</li>
+<li class="fragment">Mutual empathy</li>
+<li class="fragment">Statisticians’ most valuable supporters</li>
+<li class="fragment">Create workarounds for statisticians: <a href="https://datalab.sspcloud.fr">sspcloud.fr</a></li>
 </ul>
 </div>
 </section>
-<section id="the-challenge-we-faced-1" class="slide level2" data-background-image="background.svg" data-background-size="contain">
-<h2>The challenge we faced</h2>
-<p><strong>Lack of alignment between IT and R users</strong></p>
-<p><a href="https://www.deanmarchiori.com/">Dean Marchiori</a>’s post <a href="https://www.deanmarchiori.com/posts/2024-11-18-dealing-with-it/">“<em>5 tips for dealing with IT</em>”</a>:</p>
+<section id="towards-a-new-deal-between-it-and-statisticians" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>Towards a new deal between IT and statisticians</h2>
+<p>An official statistical office is a socio-technical system. We need:</p>
 <ul>
-<li><p><strong>IT teams are risk averse</strong>, they want to manage risks</p></li>
-<li><p>Dean’s tips:</p>
-<ul>
-<li><strong>Have empathy</strong>: understand them and what they’re facing</li>
-<li><strong>Political alignment</strong>: convince your manager to help you with IT</li>
-<li><strong>Find supporters in IT</strong></li>
-<li><strong>Find (safe) workaround</strong></li>
-<li><strong><del>Buy commercially licensed software</del> <span class="orange">not always necessary</span></strong></li>
-</ul></li>
+<li>people (business matter, methods, IT)</li>
+<li>data</li>
+<li>hardware</li>
+<li>software</li>
+<li>law and regulations</li>
 </ul>
-</section>
-<section id="the-challenge-we-faced-2" class="slide level2" data-background-image="background.svg" data-background-size="contain">
-<h2>The challenge we faced</h2>
-<p><strong>Lack of alignment between IT and R users</strong></p>
-<div class="fragment">
-<p>How did we solve it?</p>
-</div>
-<div class="fragment">
-<p><strong>Political alignment</strong>: creation of an innovation team in the IT Department</p>
-<ul>
-<li>Empathy for statisticians</li>
-<li>Most valuable supporters</li>
-<li>Propose workarounds for statisticians: <a href="https://datalab.sspcloud.fr">sspcloud.fr</a></li>
-</ul>
-</div>
 </section>
 <section id="the-challenges-we-are-facing" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>The challenges we are facing</h2>
