@@ -305,11 +305,39 @@ the practices of statisticians</span></strong></p><p></p>
 <li class="fragment">from the outside, they are all identical: IT teams can learn to manage them routinely</li>
 <li class="fragment">inside, you can put whatever you like (any R version, R packages, system dependencies…)</li>
 <li class="fragment">containers are now the basis of all data platforms: IT in official statistics offices <strong>must</strong> learn to deal with them</li>
+<li class="fragment">containers also used in DevOps platforms</li>
 </ul>
 </div>
 </section>
 <section id="a-new-deal-between-it-and-statisticians" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>A new deal between IT and statisticians</h2>
+<div>
+<ul>
+<li class="fragment">IT cares about containers orchestration and possible vulnerabilities inside them</li>
+<li class="fragment">IT offers a flexible container based platform (many versions of R, IDEs…) and offers support</li>
+<li class="fragment">IT recognizes statisticians as “citizen developers”</li>
+<li class="fragment">Statisticians may receive the power to customize containers (add/remove pieces of software)</li>
+</ul>
+</div>
+<div class="fragment">
+<blockquote>
+<p>With great power comes great responsibility</p>
+</blockquote>
+<p><span data-text-align="right">(<span class="orange">Spider-Man</span>)</span></p>
+</div>
+</section>
+<section id="the-modern-statistician-a-proposal" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>The modern statistician: a proposal</h2>
+<ul>
+<li>Uses open source languages</li>
+<li>Adopts best practices for software development (version control, modular code, tests)</li>
+<li>Manages the dependencies of her projects: packages and system dependencies (<code>renv</code>, <code>pak</code>, <code>rix</code>…)</li>
+<li>Has the right to build a docker image (linux 101)</li>
+<li>Has the right to orchestrate workflows and deploy applications in production (CI/CD)</li>
+</ul>
+<blockquote>
+<p>If this is too much for statisticians, we may need to integrate IT engineers into the business/methods units</p>
+</blockquote>
 </section>
 <section id="the-challenges-we-are-facing" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>The challenges we are facing</h2>
@@ -318,8 +346,8 @@ the practices of statisticians</span></strong></p><p></p>
 <p><strong>The nature of R</strong></p>
 <div>
 <ul>
-<li class="fragment">some statisticians (mostly managers) saw R a new statistical “tool”</li>
-<li class="fragment">younger statisticians saw R as a programming language and considered themselves as developers</li>
+<li class="fragment">some statisticians (mostly managers) saw R a new statistical “tool”. Focus on the product, not the process</li>
+<li class="fragment">other statisticians (mostly the younger ones) saw R as a programming language and considered themselves as developers</li>
 </ul>
 </div>
 </div>
