@@ -124,7 +124,7 @@ R adoption at INSEE (France): 1500 statisticians
 
 - IT teams are risk averse: they are paid to provide **stable** IT environments
 - providing a working environment for R and python users is challenging: open source languages are **unstable** by nature
-- users need flexibility/IT need stability  
+- R/python users need flexibility/IT need stability  
   **Can we find a way out?**
 
 :::
@@ -173,6 +173,24 @@ An official statistical office is a socio-technical system. We need:
 - hardware
 - software
 - law and regulations
+
+## The technology that opened us new horizons
+
+![](img/containers.jpg){.r-stretch fig-align="center"}
+
+## The benefits of containers
+
+::: incremental
+
+- from the outside, they are all identical: IT teams can learn to manage them routinely
+- inside, you can put whatever you like (any R version, R packages, system dependencies...)
+- containers are now the basis of all data platforms: IT in official statistics offices **must** learn to deal with them
+
+:::
+
+## A new deal between IT and statisticians
+
+
 
 ## The challenges we are facing
 
