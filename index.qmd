@@ -185,12 +185,35 @@ An official statistical office is a socio-technical system. We need:
 - from the outside, they are all identical: IT teams can learn to manage them routinely
 - inside, you can put whatever you like (any R version, R packages, system dependencies...)
 - containers are now the basis of all data platforms: IT in official statistics offices **must** learn to deal with them
+- containers also used in DevOps platforms
 
 :::
 
 ## A new deal between IT and statisticians
 
+::: incremental
 
+- IT cares about containers orchestration and possible vulnerabilities inside them
+- IT offers a flexible container based platform (many versions of R, IDEs...) and offers support
+- Statisticians may receive the power to customize containers (add/remove pieces of software)  
+
+:::
+
+::: fragment
+
+> With great power comes great responsibility  
+
+[([Spider-Man]{.orange})]{text-align="right"}
+
+:::
+
+## The modern statistician: a proposal
+
+- Uses open source languages
+- Adopts best practices for software development (version control, modular code, tests)
+- Manages the dependencies of her projects: packages and system dependencies (`renv`, `pak`, `rix`...)
+- Has the right to build a docker image (linux 101)
+- Has the right to orchestrate workflows and to deploy applications in production (CI/CD)
 
 ## The challenges we are facing
 
@@ -202,8 +225,8 @@ A wall of confusion between statisticians:
 
 ::: incremental
 
-- some statisticians (mostly managers) saw R a new statistical "tool"
-- younger statisticians saw R as a programming language and considered themselves as developers
+- some statisticians (mostly managers) saw R a new statistical "tool". Focus on the product, not the process
+- other statisticians (mostly the younger ones) saw R as a programming language and considered themselves as developers
 
 :::
 
