@@ -195,6 +195,7 @@ An official statistical office is a socio-technical system. We need:
 
 - IT cares about containers orchestration and possible vulnerabilities inside them
 - IT offers a flexible container based platform (many versions of R, IDEs...) and offers support
+- IT recognizes statisticians as "citizen developers"
 - Statisticians may receive the power to customize containers (add/remove pieces of software)  
 
 :::
@@ -213,7 +214,9 @@ An official statistical office is a socio-technical system. We need:
 - Adopts best practices for software development (version control, modular code, tests)
 - Manages the dependencies of her projects: packages and system dependencies (`renv`, `pak`, `rix`...)
 - Has the right to build a docker image (linux 101)
-- Has the right to orchestrate workflows and to deploy applications in production (CI/CD)
+- Has the right to orchestrate workflows and deploy applications in production (CI/CD)
+
+> If this is too much for statisticians, we may need to integrate IT engineers into the business/methods units
 
 ## The challenges we are facing
 
