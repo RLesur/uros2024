@@ -31,7 +31,7 @@ editor:
 
 ## A journey to R adoption in an NSI
 
-The adoption of R at INSEE (France)
+Diffusion of Innovations (Rogers, 1962)
 
 ::: {.r-stack .r-stretch}
 
@@ -39,17 +39,66 @@ The adoption of R at INSEE (France)
 
 :::
 
-## From innovators to early majority
+## A journey to R adoption in an NSI
+
+R adoption at INSEE (France): 1500 statisticians
+
+::: {.r-stack .r-stretch}
+
+![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DiffusionOfInnovation.png) modified by author, licensed under [CC BY-SA 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)](img/DiffusionOfInnovationTimeline.png)
+
+:::
+
+## Innovators' motivators
 
 ::: incremental
 
-- **~2000-2008**: innovators
-- **2008-2013**: first trainings given by innovators to early adopters
-- **2013**: the use of R officially recognized internally
-- **2013-2022**: a collective skills upgrade
-  * a lot of trainings, [documentation](https://www.utilitr.org/)...
-  * some successes: packages released on CRAN; all open source languages officially recognized in 2018
-  * some issues: managing R in IT environments for 1500 statisticians
+- **~2000-2012** Innovators' motivators:
+  * graphical capabilities (`lattice`)
+  * literate programming (`Sweave()`)
+  * spatial data analysis (`sp`)
+
+:::
+
+## From Innovators to Early Adopters
+
+::: incremental
+
+- **2012**:
+  * first R user group in Paris ([FL\\tauR](https://fltaur.wordpress.com/))
+  * the use of R officially recognized internally
+  * first RStudio server
+- **2012-2018** Early adopters' motivators
+  * RStudio IDE
+  * graphical capabilities (`ggplot2`)
+  * literate programming (`knitr`, `rmarkdown`)
+  * dataviz web applications (`shiny`)
+  * data wrangling (`tidyverse`, `data.table`)
+  * first packages released on CRAN (`icarus`, `btb`, `gustave`)
+:::
+
+## Getting the Early Majority
+
+::: incremental
+
+- **2018**: all open source languages officially recognized
+- **2018-2022**: a collective skills upgrade
+  * mass trainings in R
+  * an open source, community-based documentation on R by and for INSEE statisticians: [utilitR](https://www.utilitr.org/)...
+  * adoption of an internal open source code publication policy
+  * prototyping a new working environment for data science: an open source cloud based datalab ([Onyxia](https://onyxia.sh))
+
+:::
+
+## Moving away from proprietary languages
+
+::: incremental
+
+- **2022**: 
+  * 50% of the statistical scripts already been rewritten in R (voluntary initiatives)
+  * decision to use only open source languages from 2026 onwards (motivated by the increase in licensing costs)
+  * new internal environment for statisticians and data scientists based on [Onyxia](https://onyxia.sh) (vendor lock-ins have moved from languages to platforms)
+  * `parquet` files to store and disseminate data (preference for a cross language file format)
 
 :::
 
@@ -57,64 +106,73 @@ The adoption of R at INSEE (France)
 
 ::: incremental
 
-- **2022**: decision to use only open source languages from 2026 onwards
-  * 50% of the statistical programs already been rewritten in R
-  * new IT environment for statisticians and data scientists based on [Onyxia](https://onyxia.sh)
 - **2022-2026**:
-  * trainings for late majority and laggards
-  * rewriting of the remaining codes
+  * mass trainings for late majority and laggards
+  * new trainings on [Best Practices with R](https://inseefrlab.github.io/formation-bonnes-pratiques-git-R/), [Bringing Data Science Projects into Production](https://ensae-reproductibilite.github.io/website/)
+  * an active community helping each other
+  * rewriting of the remaining codes (thanks to ChatGPT for helping us understand SAS programs)
 
 :::
 
-## The challenge we faced
-
-**Lack of alignment between IT and R users**
+## The main challenge we faced
 
 . . .
 
-[Dean Marchiori](https://www.deanmarchiori.com/)'s post ["_5 tips for dealing with IT_"](https://www.deanmarchiori.com/posts/2024-11-18-dealing-with-it/):
+### Lack of alignment between IT and statisticians
 
-. . .
+::: incremental
 
-- **IT teams are risk averse**, they want to manage risks
-- Dean's tips:
+- IT teams are risk averse: they are paid to provide **stable** IT environments
+- providing a working environment for R and python users is challenging: open source languages are **unstable** by nature
+- users need flexibility/IT need stability  
+  **Can we find a way out?**
 
-  * **Have empathy**: understand them and what they're facing
-  * **Political alignment**: convince your manager to help you with IT
-  * **Find supporters in IT**
-  * **Find (safe) workaround**
-  * **Buy commercially licensed software**
+:::
 
-## The challenge we faced
+## Tips for dealing with IT
 
-**Lack of alignment between IT and R users**
+Dean Marchiori's post: ["_5 tips for dealing with IT_"](https://www.deanmarchiori.com/posts/2024-11-18-dealing-with-it/):
 
-[Dean Marchiori](https://www.deanmarchiori.com/)'s post ["_5 tips for dealing with IT_"](https://www.deanmarchiori.com/posts/2024-11-18-dealing-with-it/):
+::: incremental
 
-- **IT teams are risk averse**, they want to manage risks
-- Dean's tips:
+- **Have empathy**: understand them and what they're facing
+- **Political alignment**: convince your manager to help you with IT
+- **Find supporters in IT**
+- **Find (safe) workaround**: there is always a grey area between what is allowed and what is not 
+- **Buy commercially licensed software**
 
-  * **Have empathy**: understand them and what they're facing
-  * **Political alignment**: convince your manager to help you with IT
-  * **Find supporters in IT**
-  * **Find (safe) workaround**
-  * **~~Buy commercially licensed software~~ [not always necessary]{.orange}**
+:::
 
-## The challenge we faced
+## Tips for dealing with IT
 
-**Lack of alignment between IT and R users**
+Dean Marchiori's post: ["_5 tips for dealing with IT_"](https://www.deanmarchiori.com/posts/2024-11-18-dealing-with-it/):
 
-. . .
+- **Have empathy**: understand them and what they're facing
+- **Political alignment**: convince your manager to help you with IT
+- **Find supporters in IT**
+- **Find (safe) workaround**: there is always a grey area between what is allowed and what is not 
+- **~~Buy commercially licensed software~~** **[not always necessary]{.orange}** 
 
-How did we solve it?
+## How did we align IT and statisticians?
 
-. . .
+::: incremental
 
-**Political alignment**: creation of an innovation team in the IT Department
+- Political alignment: creation of an innovation team in the IT Department
+- Mutual empathy
+- Statisticians' most valuable supporters
+- Create workarounds for statisticians: [sspcloud.fr](https://datalab.sspcloud.fr)
 
-- Empathy for statisticians
-- Most valuable supporters
-- Propose workarounds for statisticians: [sspcloud.fr](https://datalab.sspcloud.fr) 
+:::
+
+## Towards a new deal between IT and statisticians
+
+An official statistical office is a socio-technical system. We need:
+
+- people (business matter, methods, IT)
+- data
+- hardware
+- software
+- law and regulations
 
 ## The challenges we are facing
 
