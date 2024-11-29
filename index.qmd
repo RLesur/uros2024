@@ -30,6 +30,13 @@ editor:
   render-on-save: true
 ---
 
+## Outline
+
+- Our journey to R adoption
+- R adoption motivators
+- The main challenge we faced
+- The challenges we're still facing
+
 ## A journey to R adoption in an NSI
 
 Diffusion of Innovations (Rogers, 1962)
@@ -118,7 +125,7 @@ R adoption at INSEE (France): 1500 statisticians
 
 - **2022-2026**:
   * mass trainings for late majority and laggards
-  * new trainings on [Best Practices with R](https://inseefrlab.github.io/formation-bonnes-pratiques-git-R/), [Bringing Data Science Projects into Production](https://ensae-reproductibilite.github.io/website/)
+  * new trainings on [Good Practices with git and R](https://inseefrlab.github.io/formation-bonnes-pratiques-git-R/), [Bringing Data Science Projects into Production](https://ensae-reproductibilite.github.io/website/)
   * an active community helping each other
   * rewriting of the remaining codes (thanks to ChatGPT for helping us understand SAS programs)
 
@@ -207,7 +214,7 @@ An official statistical office is a socio-technical system. We need:
 - IT offers a flexible container based platform (many versions of R, python, IDEs...) and offers support
 - IT recognizes statisticians as "citizen developers":
   * statisticians have extensive rights on the infrastructure
-  * statisticians are encouraged to apply software development best practices
+  * statisticians are encouraged to apply software development good practices
   * use of git is mandatory
 - The DevOps principle applies: **"You build it, you run it"**
 
@@ -218,33 +225,45 @@ An official statistical office is a socio-technical system. We need:
 ::: incremental
 
 - Uses open source languages
-- Adopts best practices for software development (version control, modular code, tests)
+- Adopts good practices for software development (version control, modular code, tests)
 - Manages the dependencies of her projects: packages and system dependencies (`renv`, `pak`, `rix`...)
 - Has the right (and know how) to build a docker image (linux 101)
 - Has the right to orchestrate workflows and deploy applications into production (DevOps)  
-
-> If this is too much for statisticians, we may need to integrate engineers into the business/methods units
+  
+  > If this is too much for statisticians, we may need to integrate engineers into the business/methods units
 
 :::
 
 ## The challenges we are still facing
 
+A wall of confusion between statisticians:
+
 ::: incremental
 
-- A wall of confusion between statisticians:
-  *  some statisticians (mostly managers) see R a new statistical "tool". _They focus on the product, not the process_ (see Sandra's keynote).
+  * some statisticians (mostly managers) see R a new statistical "tool". _They focus on the product, not the process_ (see Sandra's keynote).
   * other statisticians (mostly the younger ones) see R as a programming language and recognize themselves as developers. _They care about the process_
-- Statistical training lacks solid basis in computer science:
+  * mass trainings on [Good Practices with git and R](https://inseefrlab.github.io/formation-bonnes-pratiques-git-R/) for both R users and managers
+
+:::
+
+## The challenges we are still facing
+
+Statistical trainings in university lack solid basis in computer science:
+
+::: incremental
+
   * Academics have become too specialized
   * Few academics also have a production experience
+  * Inspired by [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/), we have created [Bringing Data Science Projects into Production](https://ensae-reproductibilite.github.io/website/) and proposed it to our academic partners
 
 :::
 
 ## Conclusion
 
+- Create a community of R users
 - Invest in your IT department
 - IT must consider statisticians as (citizen) developers
-- Statisticians must be trained in computer science
-- Middle management must also be trained
+- Statisticians must also be trained in computer science
+- Don't forget to train the middle management
 
 # Thanks! Questions?
