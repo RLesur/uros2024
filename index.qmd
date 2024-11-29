@@ -261,6 +261,7 @@ Statistical trainings in university lack solid basis in computer science:
 ## Conclusion
 
 - Create a community of R users
+- Invest in mass trainings
 - Invest in your IT department
 - IT must consider statisticians as (citizen) developers
 - Statisticians must also be trained in computer science
