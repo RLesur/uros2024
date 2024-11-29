@@ -206,7 +206,7 @@ An official statistical office is a socio-technical system. We need:
 
 :::
 
-## A new deal between IT and statisticians
+## A new deal between IT and statisticians {.smaller}
 
 ::: incremental
 
