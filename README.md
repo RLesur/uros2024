@@ -1,8 +1,8 @@
 # uros2024
 
-Slides for uRos 2024 keynote
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14254179.svg)](https://doi.org/10.5281/zenodo.14254179)
 
-DOI: <https://doi.org/10.5281/zenodo.14254179>
+Slides for uRos 2024 keynote
 
 ## License
 
