@@ -39,13 +39,15 @@ editor:
 
 Find these slides: <https://rlesur.github.io/uros2024>
 
+License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed)
+
 ## A journey to R adoption in an NSI
 
 Diffusion of Innovations (Rogers, 1962)
 
 ::: {.r-stack .r-stretch}
 
-![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DiffusionOfInnovation.png), licensed under [CC BY-SA 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)](img/DiffusionOfInnovation.png)
+![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DiffusionOfInnovation.png), licensed under [CC BY-SA 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed)](img/DiffusionOfInnovation.png)
 
 :::
 
@@ -55,7 +57,7 @@ R adoption at INSEE (France): 1500 statisticians
 
 ::: {.r-stack .r-stretch}
 
-![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DiffusionOfInnovation.png) modified by author, licensed under [CC BY-SA 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en)](img/DiffusionOfInnovationTimeline.png)
+![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DiffusionOfInnovation.png) modified by author, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed)](img/DiffusionOfInnovationTimeline.png)
 
 :::
 
