@@ -37,7 +37,7 @@ editor:
 - The main challenge we faced
 - The challenges we're still facing
 
-Slides: <https://rlesur.github.io/uros2024>
+Find these slides: <https://rlesur.github.io/uros2024>
 
 ## A journey to R adoption in an NSI
 
