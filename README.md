@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14254179.svg)](https://doi.org/10.5281/zenodo.14254179)
 
-Slides for uRos 2024 keynote
+Slides for uRos 2024 keynote _"Moving away from SAS: An opportunity to modernise the practices of statisticians"_.
 
 ## License
 
